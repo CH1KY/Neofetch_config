@@ -1,7 +1,7 @@
 
-    ```sh
-    ![Fondo](neo.png)
-    ```
+   
+![Fondo](neo.png)
+
 # Configuración de Neofetch
 
 Este repositorio contiene una configuración personalizada para Neofetch.
@@ -90,6 +90,6 @@ Para incluir una imagen de fondo en esta sección del `README.md`:
 
 2. Añade la siguiente línea al final de este archivo, reemplazando `fondo.png` con el nombre de tu archivo de imagen:
 
-    ```sh
-   ![Fondo](image.jpg)
-   ```
+    
+![Fondo](image.jpg)
+   
