@@ -1,95 +1,92 @@
 
    
-![Fondo](neo.png)
+![Background](neo.png)
 
-# Configuración de Neofetch
+# Neofetch Configuration
 
-Este repositorio contiene una configuración personalizada para Neofetch.
+This repository contains a custom configuration for Neofetch.
 
-## Instalación de Neofetch
+## Installing Neofetch
 
-Para instalar Neofetch, sigue estas instrucciones según tu sistema operativo:
+To install Neofetch, follow these instructions based on your operating system:
 
-### En Debian/Ubuntu
+### On Debian/Ubuntu
 
-Abre una terminal y ejecuta estos comandos uno por uno:
+Open a terminal and run these commands one by one:
 
 ```sh
 sudo apt update
 sudo apt install neofetch
 ```
 
-### En Arch Linux
+### On Arch Linux
 
-Abre una terminal y ejecuta este comando:
+Open a terminal and run this command:
 
 ```sh
 sudo pacman -S neofetch
 ```
 
-### En Fedora
+### On Fedora
 
-Abre una terminal y ejecuta este comando:
+Open a terminal and run this command:
 
 ```sh
 sudo dnf install neofetch
 ```
 
-### En macOS (usando Homebrew)
+### On macOS (using Homebrew)
 
-Abre una terminal y ejecuta este comando:
+Open a terminal and run this command:
 
 ```sh
 brew install neofetch
 ```
 
-## Usar esta configuración
+## Using This Configuration
 
-Para usar esta configuración de Neofetch, sigue estos pasos:
+To use this Neofetch configuration, follow these steps:
 
-1. **Clona este repositorio:**
+1. **Clone this repository:**
 
-   Abre una terminal y ejecuta:
+   Open a terminal and run:
 
    ```sh
    git clone https://github.com/CH1KY/Neofetch_config.git
    cd Neofetch_config
    ```
 
-2. **Copia el archivo de configuración:**
+2. **Copy the configuration file:**
 
-   Ejecuta este comando en la terminal:
+   Run this command in the terminal:
 
    ```sh
    mkdir -p ~/.config/neofetch
    cp config.conf ~/.config/neofetch/config.conf
    ```
 
-   Esto crea un directorio de configuración para Neofetch y copia el archivo de configuración personalizado a ese directorio.
+   This creates a configuration directory for Neofetch and copies the custom configuration file into that directory.
 
-## Cambiar la imagen en la configuración
+## Changing the Image in the Configuration
 
-Para cambiar la imagen que se muestra en Neofetch:
+To change the image displayed in Neofetch:
 
-1. Abre el archivo `config.conf` en un editor de texto (puedes usar `nano`, `vim`, `gedit` o cualquier otro editor).
+1. Open the `config.conf` file in a text editor (you can use `nano`, `vim`, `gedit`, or any other editor).
 
-2. Busca la línea que contiene `image_source`.
+2. Find the line containing `image_source`.
 
-3. Cambia el valor de `image_source` por la ruta de tu nueva imagen. Por ejemplo:
+3. Change the value of `image_source` to the path of your new image. For example:
 
-   
-   # Cambia esta línea a la ruta de tu imagen
-   image_source="/ruta/a/tu/imagen.png"
-   
+   # Change this line to the path of your image
+   image_source="/path/to/your/image.png"
 
-## Añadir una imagen de fondo
+## Adding a Background Image
 
-Para incluir una imagen de fondo en esta sección del `README.md`:
+To include a background image in this section of the `README.md`:
 
-1. Sube la imagen al repositorio.
+1. Upload the image to the repository.
 
-2. Añade la siguiente línea al final de este archivo, reemplazando `fondo.png` con el nombre de tu archivo de imagen:
+2. Add the following line at the end of this file, replacing `background.png` with the name of your image file:
 
-    
-![Fondo](image.jpg)
-   
+   ![Background](image.jpg)
+
