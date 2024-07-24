@@ -1,5 +1,7 @@
 
-```markdown
+    ```sh
+    ![Fondo](neo.png)
+    ```
 # Configuración de Neofetch
 
 Este repositorio contiene una configuración personalizada para Neofetch.
@@ -75,10 +77,10 @@ Para cambiar la imagen que se muestra en Neofetch:
 
 3. Cambia el valor de `image_source` por la ruta de tu nueva imagen. Por ejemplo:
 
-   ```sh
+   
    # Cambia esta línea a la ruta de tu imagen
    image_source="/ruta/a/tu/imagen.png"
-   ```
+   
 
 ## Añadir una imagen de fondo
 
@@ -88,6 +90,6 @@ Para incluir una imagen de fondo en esta sección del `README.md`:
 
 2. Añade la siguiente línea al final de este archivo, reemplazando `fondo.png` con el nombre de tu archivo de imagen:
 
-   ```markdown
-   ![Fondo](/home/ch1ky/Pictures/image.jpg)
+    ```sh
+   ![Fondo](image.jpg)
    ```
